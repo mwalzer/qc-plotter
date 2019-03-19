@@ -1,0 +1,34 @@
+Runname	Organism	Enzyme	Month
+/test/dir/test1.mzml	E. Coli	Trypsin	Jan
+/test/dir/test2.mzml	Human	unspecific	Jan
+/test/dir/test3.mzml	Mouse	Trypsin	Jan
+/test/dir/test4.mzml	HeLa	Trypsin	Jan
+/test/dir/test5.mzml	Human	Trypsin	Feb
+/test/dir/test6.mzml	Human	unspecific	Feb
+/test/dir/test7.mzml	Human	unspecific	Feb
+/test/dir/test8.mzml	Human	unspecific	Feb
+/test/dir/test9.mzml	Mouse	Trypsin	Feb
+/test/dir/test10.mzml	Mouse	Trypsin	Feb
+/test/dir/test11.mzml	Mouse	Trypsin	Jan
+/test/dir/test12.mzml	JY-S	unspecific	Jan
+/test/dir/test13.mzml	JY-S	unspecific	Jan
+/test/dir/test14.mzml	JY-S	unspecific	Jan
+/test/dir/test15.mzml	JY-S	unspecific	Jan
+/test/dir/test16.mzml	JY-S	Trypsin	Jan
+/test/dir/test17.mzml	HeLa	Trypsin	Jan
+/test/dir/test18.mzml	HeLa	Trypsin	Jan
+/test/dir/test19.mzml	HeLa	Trypsin	Jan
+/test/dir/test20.mzml	Human	unspecific	Jan
+/test/dir/test21.mzml	Human	unspecific	Feb
+/test/dir/test22.mzml	Human	unspecific	Feb
+/test/dir/test23.mzml	E. Coli	Trypsin	Feb
+/test/dir/test24.mzml	HeLa	Trypsin	Feb
+/test/dir/test25.mzml	HeLa	Trypsin	Feb
+/test/dir/test26.mzml	HeLa	Trypsin	Feb
+/test/dir/test27.mzml	HeLa	Glu-C	Jan
+/test/dir/test28.mzml	HeLa	Trypsin	Jan
+/test/dir/test29.mzml	Human	Trypsin	Jan
+/test/dir/test30.mzml	Human	Trypsin	Jan
+/test/dir/test31.mzml	Human	Trypsin	Feb
+/test/dir/test32.mzml	E. Coli	Trypsin	Jan
+/test/dir/test33.mzml	Human	Glu-C	Jan
