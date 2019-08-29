@@ -1,4 +1,4 @@
-#QC plotter for various metric plots
+# QC plotter for various metric plots
 
 ### usage
 ```
@@ -30,3 +30,4 @@ docker run -it -v /home/walzer/ms-tools/iPRG/qc/JD_06232014_sample1_A.qcML:/home
   * "-tic"
   * "-ticric"
   * "-topn"
+  * "-chargehistogramidfree"

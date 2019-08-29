@@ -104,6 +104,10 @@ case "$1" in
     prec_func $2
     Rscript /scripts/ProduceQCFigures_tic.R ${2%.*}_QCRIC.csv ${2%.*}_QCPREC.csv $(basename ${2%.*}_topn.png)
     ;;
+  "-chargehistogramidfree")
+    prec_func $2
+    Rscript /scripts/ProduceQCFigures_idfree_charge_histogram.R ${2%.*}_QCPREC.csv $(basename ${2%.*}_charge_histogram_idfree.png)
+    ;;
   # No feature based metric plots for now - you have to extract the qc_cv table and plot them with the respective feature rscript manually
   *)
     echo "No such plot available. (Did you spell it right?)"
