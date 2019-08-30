@@ -7,10 +7,9 @@ options(digits=10)
 
 
 file1<-commandArgs(TRUE)[1] #precs
-post<-commandArgs(TRUE)[3]
+post<-commandArgs(TRUE)[2]
 png(post)
-#file1<-"exampledata/QCID.tsv"
-#file2<-"exampledata/QCPREC.tsv"
+#file1<-"exampledata/QCPREC.tsv"
 
 QCPREC <- read.csv(file=file1,head=TRUE,sep="\t")
 ######################################
