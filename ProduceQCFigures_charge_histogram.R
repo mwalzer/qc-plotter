@@ -50,9 +50,11 @@ c4n <- ifelse(nrow(QCZsum[QCZsum$Charge==4,])<1,as.numeric(NA), QCZsum[QCZsum$Ch
 IS3A <- c1n / c2n
 IS3B <- c3n / c2n
 IS3C <- c4n / c2n
+IS3X <- median(as.integer(as.character(QCZ$Charge)))
+IS3Y <- mean(as.integer(as.character(QCZ$Charge)))
 
-ctext <- data.frame(c(IS3A,IS3B,IS3C))
-rownames(ctext) <- c("IS-3A","IS-3B","IS-3C")
+ctext <- data.frame(c(IS3A,IS3B,IS3C,IS3X,IS3Y))
+rownames(ctext) <- c("IS-3A","IS-3B","IS-3C","IS-3X","IS-3Y")
 colnames(ctext) <-"Metric value"
 footnote <- paste(capture.output(ctext), collapse="\n") 
 
